@@ -16,5 +16,9 @@ public class ApiCalling {
 		return service.getData();
 		
 	}
+	@GetMapping("/api/hello")
+	public String helloWorld() {
+		return "Hello World";
+	}
 
 }
